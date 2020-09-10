@@ -101,20 +101,23 @@ Be able to export to static file directly from Next.js. So no rewrite is need.
 It might be a bit fraustrating at first since there are a lot of page.
 
 For example:
-
+  
 The figure below provide a the following part and group with the same file:
-/
-/en
-
-/contact
-/en/contact
-
-/settings
-/en/settings
-
-/settings/theme
-/en/settings/theme
-
+```
+/  
+/en  
+  
+/contact  
+/en/contact  
+  
+/settings  
+/en/settings  
+  
+/settings/theme  
+/en/settings/theme  
+```
+  
+And the structure:
 ```
 | pages
 | -
